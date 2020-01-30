@@ -19,7 +19,7 @@ public class CascadeRemoveApp {
 
         session.beginTransaction();
 
-        Company company = session.get(Company.class, 9);
+        Company company = session.get(Company.class, 11);
 
         session.remove(company);
 

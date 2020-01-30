@@ -15,8 +15,8 @@ public class CascadeApp {
         SessionFactory factory = conf.buildSessionFactory();
         Session session = factory.getCurrentSession();
 
-        Company company = new Company("KGHM", 1000000000);
-        CompanyDetail detail = new CompanyDetail("Poland", 15000);
+        Company company = new Company("Orlen", 2000000000);
+        CompanyDetail detail = new CompanyDetail("Poland", 16000);
         company.setCompanyDetail(detail);
 
 
